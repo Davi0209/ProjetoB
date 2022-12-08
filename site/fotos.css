@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+ul#album{
+    width: 900px;
+    margin: 0px;
+    padding: 95px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul#album li{
+    float: left;
+    width: 250px;
+    height: 333px;
+    margin: 10px;
+    border: 5px solid var(--cor2);
+    background-color: var(--cor5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    transition: all .2s ease-in;
+}
+
+span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 12pt;
+    line-height: 600px;
+    padding: 5px;
+    font-family: 'Berkshire Swash';
+    color: var(--cor5);
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+li:hover span{
+    opacity: 1;
+}
+
+li#foto1{
+    background: url('images/1grande.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+    background-color: white;
+}
+
+ul#album li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 250px;
+}
+
+li#foto2{
+    background: url('images/2pequeno.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+    background-color: white;
+}
+
+ul#album li#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 250px;
+}
+
+li#foto3{
+    background: url('images/3caramelo.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+    background-color: white;
+}
+
+ul#album li#foto3:hover{
+    background-position: 0px 0px;
+    background-size: 250px;
+}
+
+li#foto4{
+    background: url('images/4luzes.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+    background-color: white;
+}
+
+ul#album li#foto4:hover{
+    background-position: 0px 0px;
+    background-size: 250px;
+}
+
+li#foto5{
+    background: url('images/5liso.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+    background-color: white;
+}
+
+ul#album li#foto5:hover{
+    background-position: 0px 0px;
+    background-size: 250px;
+}
+
+li#foto6{
+    background: url('images/6arrumado.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+    background-color: white;
+}
+
+ul#album li#foto6:hover{
+    background-position: 0px 0px;
+    background-size: 250px;
+}
