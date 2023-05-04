@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/relacionamento.css">
+    <script src="../resposta.js"></script>
     <title>Relacionamento - BetinhoFC</title>
 </head>
 <body>
@@ -31,27 +32,29 @@
         </div>
     </section>
     <section>
-        <div id="pedido">
+        <div id="pedido" onsubmit="escolha()">
             <h1>Só pra confirmar:</h1>
             <h2>Namora comigo, gatão?</h2>
             <form action="" name="pedido">
                 <label>
-                    <input type="radio" id="sim" name="namoro">
+                    <input type="radio" name="namoro" value="sim">
                     Sim!
                 </label>
                 <label>
-                    <input type="radio" id="sla" name="namoro">
+                    <input type="radio" name="namoro" value="sla">
                     Sla ne
                 </label>
                 <label>
-                    <input type="radio" id="nao" name="namoro">
+                    <input type="radio" name="namoro" value="nao">
                     Não, obrigado.
                 </label>
+                <input type="submit" name="Enviar" id="Enviar">
             </form>
         </div>
     </section>
     <footer>
         <p>Criado e produzido por: namorado dele <3 </p>
     </footer>
+    <link rel="java" href="">
 </body>
 </html>
