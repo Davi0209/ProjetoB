@@ -49,8 +49,8 @@ nav{
 
 .menu{
     display: inline;
-    padding: 95px;
-
+    padding: 60px;
+    margin: auto;
 }
 
 .menu a{
